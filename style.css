@@ -1,0 +1,47 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(255,244,8);
+    background: linear-gradient(90deg, rgba(255,244,8,1) 55%, rgba(255,214,0,1) 68%);
+    min-width: 300px;
+    max-width: 600px;
+}
+h1{
+    padding: 8px;
+    text-align: justify;
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+fieldset{
+    padding: 5px;
+    margin: 8px;
+    border: 2px dashed blueviolet;
+    border-radius: 12px;
+    border-width: 10px;
+    width: 45%;
+}
+fieldset p{
+    padding: 0px;
+    text-transform: capitalize;
+    font-size: 17px;
+    
+}
+
+button{
+    padding: 8px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 6px;
+    color: white;
+    background: rgb(190,8,255);
+    background: linear-gradient(90deg, rgba(190,8,255,1) 44%, rgba(132,0,255,1) 68%);
+}
+
+.me{
+    padding: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
